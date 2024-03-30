@@ -1,0 +1,34 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition: .25s all ease-in-out; 
+}
+
+.circle.shape {
+    border-radius: 20%;
+}
+
+.circle.hover {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.circle-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: .5s all ease-in;
+
+}
+.circle-2.hover_2{
+
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+
+}
